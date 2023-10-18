@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/classes.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                LOGO
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#grid-one">grid one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"> </div>
+    <section id="home" class="intro main-bg section">
+
+
+        <div class="main-content intro-content">
+
+            <div class="intro-text-content">
+                <h2>January Bring us Firefox 85</h2>
+                <p>Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all
+                    sections, or else use a div element instead for any cases where no heading is needed.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="img/undraw_static_assets_rpm6.svg" alt="logos js css html">
+            </div>
+        </div>
+    </section>
+    <section class="section white-bg" id="top3">
+        <div class="main-content top3-content">
+            <h2>TOP 3 JOBS</h2>
+            <p>Verifique o nome e a extensão
+                arquivo: Certifique-se de que o nome do arquivo e a extensão estejam
+                escritos corretamente, incluindo letras maiúsculas/minúsculas. Por exemplo,
+                "undraw_static_assets_rpm6.svg" deve coincidir exatamente com o nome do arquivo.
+            </p>
+
+            <p>f está tentando encontrar a imagem
+                SVG no diretório pai do diretório onde o arquivo HTML está
+                localizado. Certifique-se de que a estrutura de diretórios e os caminhos de arquivo estão corretos.
+            </p>
+            <p>Se após verificar todos esses
+                detalhes o problema persistir, forneça mais informações sobre a estrutura
+                de diretórios do seu projeto e eventuais mensagens de erro que você esteja recebendo para que eu possa
+                ajudá-lo com mais precisão.
+            </p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-descrption">Uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3> First</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo facilis aut at ea
+                        recusandae culpa, accusamus ab? Libero temporibus quibusdam sed id voluptatibus expedita ad nemo
+                        animi hic! Omnis?
+                    </p>
+                </article>
+                <article>
+                    <h3> Another site</h3>
+                    <p>
+                        Verifique o console do navegador: Abra o console do navegador (geralmente pressionando F12) e
+                        verifique se há erros relacionados ao carregamento da imagem SVG. Isso pode fornecer informações
+                        adicionais sobre o problema.
+                    </p>
+                </article>
+                <article>
+                    <h3> One</h3>
+                    <p>
+                        Certifique-se de que o diretório onde o seu arquivo HTML está localizado contenha uma pasta
+                        chamada "assets" e dentro dela uma pasta "img" onde o arquivo SVG está presente.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg grid-one section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-descrption">Uma breve descrição.</p>
+            <div class="grid">
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?1" alt="imagem aleatória 1">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?2" alt="imagem aleatória 2">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?3" alt="imagem aleatória 3">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?4" alt="imagem aleatória 4">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?5" alt="imagem aleatória 5">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?6" alt="imagem aleatória 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section white-bg" id="pricing">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>Verifique o nome e a extensão
+                arquivo: Certifique-se de que o nome do arquivo e a extensão estejam
+                escritos corretamente, incluindo letras maiúsculas/minúsculas. Por exemplo,
+                "undraw_static_assets_rpm6.svg" deve coincidir exatamente com o nome do arquivo.
+            </p>
+
+            <p>f está tentando encontrar a imagem
+                SVG no diretório pai do diretório onde o arquivo HTML está
+                localizado. Certifique-se de que a estrutura de diretórios e os caminhos de arquivo estão corretos.
+            </p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                            <td>content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+
+
+        <div class="main-content intro-content">
+
+            <div class="intro-text-content">
+                <h2>Contact</h2>
+                <p>Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all
+                    sections, or else use a div element instead for any cases where no heading is needed.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="img/undraw_static_assets_rpm6.svg" alt="logos js css html">
+            </div>
+
+            <div class="contact-form" id="contact">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name"
+                        placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name"
+                        placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email"
+                        placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>
+            Feito com ❤ por Marcos Vinícius
+        </p>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+ :root {
+     --primary-color: #000320;
+     --white-color: #fff;
+     --light-gray-color: #EEE;
+     --secondary-color: crimson;
+     --gap: 3rem;
+ }
+
+ .menu {
+     background: var(--white-color);
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     z-index: 1;
+     border-bottom: 0.2rem solid var(--light-gray-color) ;
+ }
+
+
+ .menu-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 0;
+     padding-bottom: 0;
+ }
+
+ .menu h1 {
+     font-size: 2.3rem;
+     color: var(--primary-color);
+ }
+
+ .menu h1 a {
+     color: inherit;
+
+ }
+
+ .menu ul {
+     list-style: none;
+     display: flex;
+ }
+
+ .menu ul li a {
+     display: block;
+     padding: 2rem;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    position: relative;
+ }
+ .menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background: var(--secondary-color);
+    transition: all 300ms ease-in-out;
+ }
+
+ .menu ul li a:hover::after {
+    width: 50%;
+    left: 25%;
+ }
+ .contact-form {
+    grid-column: span 2;
+ }
+ .contact-form .form-grid {
+    border: none;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+ }
+
+ .form-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+ }
+ .form-group {
+    flex: 1 1 320px;
+ }
+
+ .form-group label {
+    display: block;
+ }
+
+ .form-group input,
+ .form-group textarea {
+    border: none;
+    background: var(--white-color);
+    width: 100%;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    
+ }
+
+ .form-group button {
+    border: 0.5rem solid var(--white-color);
+    background: none;
+    color: var(--white-color);
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+ }
+
+ .form-group button:hover {
+    background: var(--white-color);
+    color: var(--primary-color);
+ }
+
+ .form-group ::placeholder {
+    color: var(--light-gray-color);
+ }
